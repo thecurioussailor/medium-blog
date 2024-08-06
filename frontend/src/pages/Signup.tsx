@@ -3,11 +3,11 @@ import Quote from "../components/Quote"
 
 function Signup() {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid lg:grid-cols-2">
       <div>
-        <Auth/>
+        <Auth type="signup"/>
       </div>
-      <div className="invisible lg:visible">
+      <div className="hidden lg:block">
         <Quote/>
       </div>
     </div>
