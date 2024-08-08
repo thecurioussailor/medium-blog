@@ -1,7 +1,6 @@
-import { Blog } from "../hooks"
 import { Appbar } from "./Appbar"
 import { Avatar } from "./BlogCard"
-
+import { Blog } from "../hooks/index"
 const FullBlog = ({blog}: {blog: Blog}) => {
   return (
     <div>
