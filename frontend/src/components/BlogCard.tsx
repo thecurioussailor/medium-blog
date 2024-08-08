@@ -21,7 +21,7 @@ const BlogCard = ({
                 {authorName}
             </div>
             <div className="pl-2 font-thin">
-                 . {publishedDate}
+                {publishedDate}
             </div>
         </div>
         <div>
